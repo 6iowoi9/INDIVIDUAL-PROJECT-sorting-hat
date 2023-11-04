@@ -1,0 +1,128 @@
+body {
+  background-color: #C0C0C0;
+  font-family: "Harry p";
+}
+
+@font-face {
+  font-family: "Harry P";
+  src: url("Fonts/HARRYP__.TTF") format("truetype");
+}
+
+#headers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+#header1 {
+  margin: 26px;
+  font-size: 45px;
+}
+#header2 {
+  margin: 10px;
+  font-size: medium;
+  border-bottom: solid gray 1px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 35px;
+}
+#header3 {
+  margin: 10px;
+  font-size: medium;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+}
+.card,
+.list-group-item {
+  background-color: rgb(232, 222, 222);
+}
+#app {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#box1 {
+  border: solid;
+}
+#box2 {
+  border: solid;
+}
+#mainpage {
+  background-image: url(https://www.pngmart.com/files/12/Sorting-Hat-PNG-Free-Download.png);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-color: #C0C0C0;
+  background-size: 400px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#welcomem {
+  margin-top: 50%;
+  width: 66%;
+  font-family: "Harry p";
+  font-size: 30px;
+}
+#sort,
+#sortbutton {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#boxes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 45px;
+  flex-direction: row;
+}
+#box1 {
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#filters{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 30px;
+  margin-bottom: 10px;
+  
+}
+.card{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#gry{
+  background-color:#AE0001;
+  color: #C0C0C0;
+}
+#sly{
+  background-color: #2A623D;
+  color: #AAAAAA;
+}
+#huf{
+  background-color: #FFED86;
+  color:#60605C ;
+}
+#rav{
+  background-color: #222F5B;
+  color:#60605C ;
+}
